@@ -10,6 +10,7 @@
 #' @export launchApp
 library(shiny)
 launchApp=function(){
+  library(shiny)
 
   shinyApp( ui=ui <-tagList(
     #shinythemes::themeSelector(),
